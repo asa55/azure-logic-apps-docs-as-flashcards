@@ -41,6 +41,9 @@ Some patterns and processes are easy to describe but hard to implement in code. 
 Based on your scenario, solution requirements, and desired capabilities, you'll choose to create either a Consumption or Standard logic app workflow. Based on this choice, the workflow runs in either 
 
 - `_____`
+- `_____`
+- `_____`
+- `_____`
 
 %
 
@@ -234,14 +237,6 @@ Logic App (Standard) with host environment App Service Environment v3 (ASEv3) - 
 %
 
 - App Service plan
-
-
-
-
-
-
-
-
 
 ##
 

@@ -96,29 +96,3 @@ Term:
 %
 
 Integration account
-
-##
-
-Description:
-"
-
-"
-
-Term:
-
-%
-
-
-
-##
-
-Description:
-"
-
-"
-
-Term:
-
-%
-
-

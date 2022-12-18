@@ -1,4 +1,4 @@
-# asa55 Azure Logic Apps Docs
+# asa55 Docs as Flashcards::Azure::Logic Apps
 
 ##
 

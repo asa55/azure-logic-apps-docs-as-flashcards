@@ -72,47 +72,49 @@ containers
 
 Logic App (Consumption) with host environment Multi-tenant Azure Logic Apps has the following benefits:
 
-- `_____`
-- `_____`
-- `_____`
+- Easiest to get `_____`
+- Pay-for-what-you-`_____`
+- Fully `_____`
 
 %
 
-- Easiest to get started
-- Pay-for-what-you-use
-- Fully managed
+- Easiest to get **started**
+- Pay-for-what-you-**use**
+- Fully **managed**
 
 ##
 
 Logic App (Consumption) with host environment Integration service environment (ISE) has the following benefits:
 
-- `_____`
-- `_____`
-- `_____`
+- Enterprise scale for `_____` workloads
+- `_____`+ ISE-specific connectors that connect directly to virtual networks
+- `_____` pricing with included usage and customer-controlled scaling
 
 %
 
-- Enterprise scale for large workloads
-- 20+ ISE-specific connectors that connect directly to virtual networks
-- Predictable pricing with included usage and customer-controlled scaling
+- Enterprise scale for **large** workloads
+- **20**+ ISE-specific connectors that connect directly to virtual networks
+- **Predictable** pricing with included usage and customer-controlled scaling
 
 ##
 
 Logic App (Standard) with host environment Single-tenant Azure Logic Apps has the following benefits:
 
-- `_____`
-- `_____`
-- `_____`
-- `_____`
-- `_____`
+- Run using the single-tenant Azure Logic Apps `_____`
+  - Deployment `_____` are currently not supported
+- More built-in `_____` for higher throughput and lower costs at scale
+- More control and fine-tuning capability around `_____` and performance settings
+- `_____` support for virtual networks and private endpoints
+- Create your own built-in `_____`
 
 %
 
-- Run using the single-tenant Azure Logic Apps runtime. Deployment slots are currently not supported.
-- More built-in connectors for higher throughput and lower costs at scale
-- More control and fine-tuning capability around runtime and performance settings
-- Integrated support for virtual networks and private endpoints.
-- Create your own built-in connectors.
+- Run using the single-tenant Azure Logic Apps **runtime**
+  - Deployment **slots** are currently not supported
+- More built-in **connectors** for higher throughput and lower costs at scale
+- More control and fine-tuning capability around **runtime** and performance settings
+- **Integrated** support for virtual networks and private endpoints
+- Create your own built-in **connectors**
 
 ##
 
@@ -120,91 +122,85 @@ Logic App (Standard) with host environment App Service Environment v3 (ASEv3) - 
 
 Same capabilities as single-tenant plus the following benefits:
 
-- `_____`
-- `_____`
-- `_____`
-- `_____`
-- `_____`
+- Fully `_____` your logic apps
+- Create and run more logic apps than in `_____`-tenant Azure Logic Apps
+- Pay only for the ASE App Service `_____`, no matter the number of logic apps that you create and run
+- Can enable `_____`scaling or manually scale with more virtual machine instances or a different App Service plan
+- `_____` the network setup from the selected ASEv3. For example, when deployed to an internal ASE, workflows can access the resources in a virtual network associated with the ASE and have internal access points
 
 Note: If accessed from outside an internal ASE, run histories for workflows in that ASE can't access action inputs and outputs.
 
 %
 
-Same capabilities as single-tenant plus the following benefits:
-
-- Fully isolate your logic apps.
-- Create and run more logic apps than in single-tenant Azure Logic Apps.
-- Pay only for the ASE App Service plan, no matter the number of logic apps that you create and run.
-- Can enable autoscaling or manually scale with more virtual machine instances or a different App Service plan.
-- Inherit the network setup from the selected ASEv3. For example, when deployed to an internal ASE, workflows can access the resources in a virtual network associated with the ASE and have internal access points.
-
-Note: If accessed from outside an internal ASE, run histories for workflows in that ASE can't access action inputs and outputs.
+- Fully **isolate** your logic apps
+- Create and run more logic apps than in **single**-tenant Azure Logic Apps
+- Pay only for the ASE App Service **plan**, no matter the number of logic apps that you create and run
+- Can enable **auto**scaling or manually scale with more virtual machine instances or a different App Service plan
+- **Inherit** the network setup from the selected ASEv3. For example, when deployed to an internal ASE, workflows can access the resources in a virtual network associated with the ASE and have internal access points
 
 ##
 
 Logic App (Consumption) with host environment Multi-tenant Azure Logic Apps has the following resource sharing and usage considerations:
 
-- `_____`
-- `_____`
-- `_____`
+- A single logic app can have only one `_____`
+- Logic apps across Azure Active Directory `_____` share the same processing (compute), storage, network, and so on
+- For high `_____`, geo-redundant storage (GRS) is enabled
 
 %
 
-- A single logic app can have only one workflow.
-- Logic apps across Azure Active Directory tenants share the same processing (compute), storage, network, and so on.
-- For high availability, geo-redundant storage (GRS) is enabled.
+- A single logic app can have only one **workflow**
+- Logic apps across Azure Active Directory **tenants** share the same processing (compute), storage, network, and so on
+- For high **availability**, geo-redundant storage (GRS) is enabled
 
 ##
 
 Logic App (Consumption) with host environment Integration service environment (ISE) has the following resource sharing and usage considerations:
 
-- `_____`
-- `_____`
-- `_____`
+- A single logic app can have only one `_____`
+- Logic apps in the same `_____` share the same processing (compute), storage, network, and so on
+- Data stays in the same `_____` where you deploy the ISE
 
 %
 
-- A single logic app can have only one workflow.
-- Logic apps in the same environment share the same processing (compute), storage, network, and so on.
-- Data stays in the same region where you deploy the ISE.
+- A single logic app can have only one **workflow**
+- Logic apps in the same **environment** share the same processing (compute), storage, network, and so on
+- Data stays in the same **region** where you deploy the ISE
 
 ##
 
 Logic App (Standard) with host environment Single-tenant Azure Logic Apps has the following resource sharing and usage considerations:
 
-- `_____`
-- `_____`
-- `_____`
+- A single logic app can have multiple stateful and stateless `_____`
+- Workflows in a single logic app and `_____` share the same processing (compute), storage, network, and so on
+- Data stays in the same `_____` where you deploy your logic apps
 
 %
 
-- A single logic app can have multiple stateful and stateless workflows.
-- Workflows in a single logic app and tenant share the same processing (compute), storage, network, and so on.
-- Data stays in the same region where you deploy your logic apps.
+- A single logic app can have multiple stateful and stateless **workflows**
+- Workflows in a single logic app and **tenant** share the same processing (compute), storage, network, and so on
+- Data stays in the same **region** where you deploy your logic apps
 
 ##
 
 Logic App (Standard) with host environment App Service Environment v3 (ASEv3) - Windows plans only - has the following resource sharing and usage considerations:
 
-- `_____`
-- `_____`
-- `_____`
+- A single logic app can have multiple stateful and stateless `_____`
+- Workflows in a single logic app and `_____` share the same processing (compute), storage, network, and so on
+- Data stays in the same `_____` where you deploy your logic apps
 
 %
 
-- A single logic app can have multiple stateful and stateless workflows.
-- Workflows in a single logic app and tenant share the same processing (compute), storage, network, and so on.
-- Data stays in the same region where you deploy your logic apps.
+- A single logic app can have multiple stateful and stateless **workflows**
+- Workflows in a single logic app and **tenant** share the same processing (compute), storage, network, and so on
+- Data stays in the same **region** where you deploy your logic apps
 
 ##
 
-Logic App (Consumption) with host environment Multi-tenant Azure Logic Apps has the following pricing and billing model:
-
-- `_____`
+Logic App (Consumption) with host environment Multi-tenant Azure Logic Apps has the following pricing and billing model is pay-per-
 
 %
 
-- Consumption (pay-per-execution)
+execution
 
 ##
 
@@ -220,67 +216,67 @@ Logic App (Consumption) with host environment Integration service environment (I
 
 Logic App (Standard) with host environment Single-tenant Azure Logic Apps has the following pricing and billing model:
 
-- `_____`
-- `_____`
+- Standard, based on a hosting plan with a selected pricing tier
+  - If you run `_____` workflows, which use external storage, the Azure Logic Apps runtime makes storage transactions that follow Azure Storage pricing
 
 %
 
-- Standard, based on a hosting plan with a selected pricing tier.
-- If you run stateful workflows, which use external storage, the Azure Logic Apps runtime makes storage transactions that follow Azure Storage pricing
+- Standard, based on a hosting plan with a selected pricing tier
+  - If you run **stateful** workflows, which use external storage, the Azure Logic Apps runtime makes storage transactions that follow Azure Storage pricing
 
 ##
 
 Logic App (Standard) with host environment App Service Environment v3 (ASEv3) - Windows plans only - has the following pricing and billing model:
 
-- `_____`
+- App Service `_____`
 
 %
 
-- App Service plan
+- App Service **plan**
 
 ##
 
 Logic App (Consumption) with host environment Multi-tenant Azure Logic Apps has the following limits management considerations:
 
-- `_____`
+- Azure Logic Apps manages the `_____` values for these limits, but you can change some of these values, if that option exists for a specific limit
 
 %
 
-- Azure Logic Apps manages the default values for these limits, but you can change some of these values, if that option exists for a specific limit.
+- Azure Logic Apps manages the **default** values for these limits, but you can change some of these values, if that option exists for a specific limit
 
 ##
 
 Logic App (Consumption) with host environment Integration service environment (ISE) has the following limits management considerations:
 
-- `_____`
+- Azure Logic Apps manages the `_____` values for these limits, but you can change some of these values, if that option exists for a specific limit.
 
 %
 
-- Azure Logic Apps manages the default values for these limits, but you can change some of these values, if that option exists for a specific limit.
+- Azure Logic Apps manages the **default** values for these limits, but you can change some of these values, if that option exists for a specific limit.
 
 ##
 
 Logic App (Standard) with host environment Single-tenant Azure Logic Apps has the following limits management considerations:
 
-- `_____`
-- `_____`
+- You can change the `_____` values for many limits, based on your scenario's needs.
+  - Important: Some limits have hard upper maximums. In Visual Studio Code, the changes you make to the `_____` limit values in your logic app project configuration files won't appear in the designer experience
 
 %
 
-- You can change the default values for many limits, based on your scenario's needs.
-- Important: Some limits have hard upper maximums. In Visual Studio Code, the changes you make to the default limit values in your logic app project configuration files won't appear in the designer experience. For more information, see Edit app and environment settings for logic apps in single-tenant Azure Logic Apps.
+- You can change the **default** values for many limits, based on your scenario's needs.
+  - Important: Some limits have hard upper maximums. In Visual Studio Code, the changes you make to the **default** limit values in your logic app project configuration files won't appear in the designer experience
 
 ##
 
 Logic App (Standard) with host environment App Service Environment v3 (ASEv3) - Windows plans only - has the following limits management considerations:
 
-- `_____`
-- `_____`
+- You can change the `_____` values for many limits, based on your scenario's needs.
+  - Important: Some limits have hard upper maximums. In Visual Studio Code, the changes you make to the `_____` limit values in your logic app project configuration files won't appear in the designer experience
 
 %
 
-- You can change the default values for many limits, based on your scenario's needs.
-- Important: Some limits have hard upper maximums. In Visual Studio Code, the changes you make to the default limit values in your logic app project configuration files won't appear in the designer experience. For more information, see Edit app and environment settings for logic apps in single-tenant Azure Logic Apps.
+- You can change the **default** values for many limits, based on your scenario's needs.
+  - Important: Some limits have hard upper maximums. In Visual Studio Code, the changes you make to the **default** limit values in your logic app project configuration files won't appear in the designer experience
 
 ##
 
@@ -321,13 +317,3 @@ Running logic apps in your own dedicated instance helps reduce the impact that o
 %
 
 "noisy neighbors" effect
-
-##
-
-An ISE also provides these benefits:
-
-- `_____`
-
-%
-
-- Note from the flashcard author, don't use ISEs. They're expensive, clunky, and difficult to maintain. Had discussions with Microsoft directly regarding this. This opinion obviously does not reflect what is in the docs. If you really need to know what the official advertised benefits of ISEs are, look at the tag on this card to help you navigate to the correct page of the offficial Logic Apps docs. They're listed there.

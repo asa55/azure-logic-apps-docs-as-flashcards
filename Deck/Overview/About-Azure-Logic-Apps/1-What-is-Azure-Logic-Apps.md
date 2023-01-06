@@ -29,11 +29,11 @@ This list describes just a few example tasks, business processes, and workloads 
 - Schedule and send `_____` notifications using Office 365 when a specific event happens, for example, a new file is uploaded.
 - Route and process customer `_____` across on-premises systems and cloud services.
 - Move uploaded `_____` from an SFTP or FTP server to Azure Storage.
-- Monitor `_____`, analyze the sentiment, and create alerts or tasks for items that need review.
+- Monitor tweets, analyze the `_____`, and create alerts or tasks for items that need review.
 
 %
 
 - Schedule and send **email** notifications using Office 365 when a specific event happens, for example, a new file is uploaded.
 - Route and process customer **orders** across on-premises systems and cloud services.
 - Move uploaded **files** from an SFTP or FTP server to Azure Storage.
-- Monitor **tweets**, analyze the sentiment, and create alerts or tasks for items that need review.
+- Monitor tweets, analyze the **sentiment**, and create alerts or tasks for items that need review.

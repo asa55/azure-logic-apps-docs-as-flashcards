@@ -26,19 +26,19 @@ operations
 
 Choose from hundreds of connectors in a growing Azure ecosystem, for example:
 
-- `_____`
-- `_____`
-- `_____`
-- `_____`
-- `_____`
+- `_____` services such as Blob Storage and Service Bus
+- `_____` 365 services such as Outlook, Excel, and SharePoint
+- `_____` servers such as SQL and Oracle
+- `_____` systems such as SAP and IBM MQ
+- `_____` shares such as FTP and SFTP
 
 %
 
-- Azure services such as Blob Storage and Service Bus
-- Office 365 services such as Outlook, Excel, and SharePoint
-- Database servers such as SQL and Oracle
-- Enterprise systems such as SAP and IBM MQ
-- File shares such as FTP and SFTP
+- **Azure** services such as Blob Storage and Service Bus
+- **Office** 365 services such as Outlook, Excel, and SharePoint
+- **Database** servers such as SQL and Oracle
+- **Enterprise** systems such as SAP and IBM MQ
+- **File** shares such as FTP and SFTP
 
 ##
 
